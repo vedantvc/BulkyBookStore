@@ -12,7 +12,7 @@ namespace BulkyBook.DataAccess
         {
         }
 
-        // DbSet properties representing database tables
+        // DbSet properties representing database tables.
         public DbSet<Category> Categories { get; set; } 
         public DbSet<CoverType> CoverTypes { get; set; } 
         public DbSet<Product> Products { get; set; } 
